@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "public": true,
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/pricing",
+      "dest": "/pricing.html"
+    },
+    {
+      "src": "/dstack",
+      "dest": "/dstack-landing.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
